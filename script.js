@@ -43,7 +43,7 @@ function Deposit(){
         document.getElementById("deposit-result").innerText=msg;
     });
 }
-function Withdraw(){
+function withdraw(){
     const data={
        accNo : document.getElementById("w-accNo").value,
        Amount : document.getElementById("w-amount").value
